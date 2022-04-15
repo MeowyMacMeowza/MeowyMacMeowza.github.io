@@ -1,0 +1,1 @@
+import{b as r}from"./vendor.3cbabd63.js";const s="http://34.125.77.175:4000/api/";class l{upload(a){let t=new FormData;return t.append("file",a),r.post(s+"upload",t,{headers:{"Content-Type":"multipart/form-data"}})}getFiles(){return r.get("files")}}var i=new l,c=(e,a)=>{const t=e.__vccOpts||e;for(const[o,p]of a)t[o]=p;return t};export{i as U,c as _};
